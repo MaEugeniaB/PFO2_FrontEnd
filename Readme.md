@@ -1,7 +1,7 @@
 README
 
 El siguiente es un trabajo realizado para el IFTS 29, enla materia de Front end.
-La URL del GitHub Pages:
+La URL del GitHub Pages: https://maeugeniab.github.io/PFO1_FrontEnd/
 
 Checklist - Práctica Formativa Obligatoria 1
 
