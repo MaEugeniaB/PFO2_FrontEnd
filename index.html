@@ -11,14 +11,14 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<!-- -->
+<!--El body está formado por el header, el main y el footer. El main está separado en secciones -->
 <body>
     <header>
         <h1>
             Porfolio Personal de María Eugenia Bava
         </h1>
         <nav class="nav">
-            <ul>
+            <ul> <!--Utilicé ul ya que quería un listado desordenado-->
                 <li><a href="#sobre_mi">Sobre mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
@@ -28,7 +28,7 @@
         </nav>
     </header>
     <main>
-        <section id="sobre_mi">
+        <section id="sobre_mi"> <!--Acá se utilizan identificadores para referenciarlos en el css-->
             <div>
                 <h2>Sobre Mí</h2>
                 <p>Nombre y Apellido: María Eugenia Bava</p>
@@ -46,14 +46,14 @@
             <div class="tarjetas">
                 <div class="tarjeta">
                     <h3 class="TituloCadaTarjeta">Sala Sensorial</h3>
-                    <img src="./assets/images/DSCN2485.JPG" alt="Sala Sensorial" loading="lazy" width="300">
+                    <img class="imagen" src="./assets/images/DSCN2485.JPG" alt="Sala Sensorial" loading="lazy" >
                     <div class="textoParrafoAlineado">
                     <p class="textoParrafoAlineado">Para unificar mis dos carreras como Tesis de Ingeniería realicé una Sala Sensorial para la Escuela Especial N°6 en Bariloche</p>
                 </div>
                 </div>
                 <div class="tarjeta">
                     <h3 class="TituloCadaTarjeta">Clon de Pagina Web</h3>
-                    <img src="./assets/images/TrabajoCAC.png" alt="Pagina Web CAD" loading="lazy" width="400">
+                    <img class="imagen"  src="./assets/images/TrabajoCAC.png" alt="Pagina Web CAD" loading="lazy" >
                     <div class="textoParrafoAlineado">
                         <p >El 2022 realicé un curso de Full stac en Codo a Codo y realizamos el Clon de una página Web que nos ofreció la posibilidad de aprender JSy algo de JAVA</p>
                     </div>
@@ -75,9 +75,8 @@
         <section class="Peliculas" id="peliculas">
             <h2 class="Titulo">Mis Películas Favoritas</h2>
             <div class="tarjetas">
-                <div class="img">
-                    <img src="./assets/images/el_descanso.jpg" alt="Imagen de la pelicula El Descanso" loading="lazy"
-                    height="400">
+                <div class="tarjetaPeli">
+                    <img src="./assets/images/el_descanso.jpg" alt="Imagen de la pelicula El Descanso" loading="lazy" height="300rem">
                     <h3 class="TituloCadaTarjeta">El Descanso</h3>
                     <div class="textoParrafoAlineado">
                         <p> El descanso (2006) es una comedia romántica sobre dos mujeres que intercambian casas en
@@ -88,9 +87,9 @@
                             durante dos semanas. </p>
                     </div>
                 </div>
-                <div class="img">
+                <div class="tarjetaPeli">
                     <img src="./assets/images/la_gran_estafa.jpg" alt="Imagen de la pelicula La Gran Estafa"
-                        loading="lazy" height="400">
+                        loading="lazy" height="300rem">
 
                     <h3 class="TituloCadaTarjeta">La Gran Estafa</h3>
                     <div class="textoParrafoAlineado">
@@ -103,9 +102,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="img">
-                    <img src="./assets/images/ET.jpg" alt="Imagen de la pelicula E T" loading="lazy" height="400">
-
+                <div class="tarjetaPeli">
+                    <img src="./assets/images/ET.jpg" alt="Imagen de la pelicula E T" loading="lazy" height="300rem">
                     <h3 class="TituloCadaTarjeta">E.T.</h3>
                     <div class="textoParrafoAlineado">
                         <p> E.T., el extraterrestre es una película de ciencia ficción de 1982 dirigida por Steven
@@ -152,10 +150,16 @@
         </div>
         </section>
     </main>
+    
     <footer>
-        <ul class="piePagina">
-            <p>2025</p>
-        </ul>
+        <div class="footer">
+            <a href="https://github.com/MaEugeniaB" >
+                <img class="imagenFooter" src="./assets/images/github.png" alt="logo de github" width="70rem">
+            </a>
+            <a href="mailto:eugebava@gmail.com">
+                <img class="imagenFooter" src="./assets/images/gmail.png" alt="logo mail" width="70rem">
+            </a>
+        </div>
     </footer>
 </body>
 
