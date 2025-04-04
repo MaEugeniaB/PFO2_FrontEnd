@@ -90,7 +90,7 @@ h1 {
     padding: 1%;
 }
 
-.Habilidades {
+#habilidades {
     display: flex;
     border-top-style: groove;
     margin-top: 3%;
