@@ -174,14 +174,13 @@ h1 {
 
 
 @media (min-width: 359px ) and (max-width:750px) {
+    
     .nav ul {
         display: block;
-        margin-right: 0%;
-        gap: 0%;
-        font-size: medium;
+        font-size:larger;
         padding-top: 1%;
         width: min-content;
-        justify-self: end;
+        justify-self:center;
         
     }
 
@@ -293,7 +292,7 @@ h1 {
             font-size:medium;
             padding-top: 1%;
             width: min-content;
-            justify-self: end;
+            justify-self:center;
             
         }
     
