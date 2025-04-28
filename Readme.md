@@ -1,7 +1,7 @@
 README
 
-El siguiente es un trabajo realizado para el IFTS 29, enla materia de Front end.
-La URL del GitHub Pages: https://maeugeniab.github.io/PFO1_FrontEnd/
+El siguiente es el 2° trabajo realizado para el IFTS 29, en la materia de Front end.
+La URL del GitHub Pages: https://maeugeniab.github.io/PFO2_FrontEnd/
 
 Checklist - Práctica Formativa Obligatoria 1
 
@@ -60,5 +60,6 @@ Checklist - Práctica Formativa Obligatoria 1
 - [✔️] Se agregó un modo oscuro. Se guarda la elección del usuario y vuelve a abrir según esta elección
 - [✔️] Se incorporó un contador de visitas.
 - [✔️] Al contador de visitas, se le añadió un reloj de arena con animación.
+- [✔️] Se agregó un Botón para volver al Top cuando se ha scrolleado hacia abajo.
 - [✔️] se modificó la manera de visualizar las tarjetas de películas. Antes era estática. Ahora se visualiza en carrusel.
 - [✔️] Se agregó un Pop Up al formulario. Una vez que se anvia el formulario, aparece un pop up con el envio exitoso.

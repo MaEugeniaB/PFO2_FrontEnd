@@ -352,6 +352,32 @@ body.dark-mode {
    
 }
 
+#boton-top {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 22px;
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+  
+  #boton-top:hover {
+    opacity: 1;
+  }
+
+  #boton-top i {
+    font-size: 30px;
+  }
+  
+
 
 @media (min-width: 751px ) and (max-width:1110px) {
     
