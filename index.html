@@ -10,13 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    
 </head>
 <!--El body está formado por el header, el main y el footer. El main está separado en secciones -->
 <body>
     <header>
+        <button id="toggle-theme" class="boton-tema">🌙 Modo oscuro</button>
         <h1>
             Porfolio Personal de María Eugenia Bava
         </h1>
+        <p class="contador-visitas">
+            <span class="reloj-arena" id="reloj-arena">⏳</span>
+            Cantidad de visitas de esta página: <span id="contador">0</span>           </p>
         <nav class="nav">
             <ul> <!--Utilicé ul ya que quería un listado desordenado-->
                 <li><a href="#sobre_mi">Sobre mí</a></li>
@@ -26,7 +31,7 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-    </header>
+        </header>
     <main>
         <section id="sobre_mi"> <!--Acá se utilizan identificadores para referenciarlos en el css-->
             <div>
@@ -74,49 +79,55 @@
 
         <section class="Peliculas" id="peliculas">
             <h2 class="Titulo">Mis Películas Favoritas</h2>
-            <div class="tarjetas">
-                <div class="tarjetaPeli">
-                    <img src="./assets/images/el_descanso.jpg" alt="Imagen de la pelicula El Descanso" loading="lazy" height="300rem">
-                    <h3 class="TituloCadaTarjeta">El Descanso</h3>
-                    <div class="textoParrafoAlineado">
-                        <p> El descanso (2006) es una comedia romántica sobre dos mujeres que intercambian casas en
-                            Navidad para olvidar sus problemas amorosos. Amanda Woods (Cameron Diaz) es una editora de
-                            Los Ángeles que acaba de romper con su novio. Iris Simpkins (Kate Winslet) es una periodista
-                            de Londres que sufre por un hombre comprometido con otra mujer. A través de una página de
-                            intercambio de casas, las dos mujeres deciden intercambiar residencias y pertenencias
-                            durante dos semanas. </p>
+            <div class="carrusel-conteiner">
+                
+                <div class="tarjetasPeli carrusel" id="tarjetasPeli" style="transform: translateX(0%);">
+                    <div class="tarjetaPeli">
+                        <img src="./assets/images/el_descanso.jpg" alt="Imagen de la pelicula El Descanso" loading="lazy" height="300rem">
+                        <h3 class="TituloCadaTarjeta">El Descanso</h3>
+                        <div class="textoParrafoAlineado">
+                            <p> El descanso (2006) es una comedia romántica sobre dos mujeres que intercambian casas en
+                                Navidad para olvidar sus problemas amorosos. Amanda Woods (Cameron Diaz) es una editora de
+                                Los Ángeles que acaba de romper con su novio. Iris Simpkins (Kate Winslet) es una periodista
+                                de Londres que sufre por un hombre comprometido con otra mujer. A través de una página de
+                                intercambio de casas, las dos mujeres deciden intercambiar residencias y pertenencias
+                                durante dos semanas. </p>
+                        </div>
                     </div>
-                </div>
-                <div class="tarjetaPeli">
-                    <img src="./assets/images/la_gran_estafa.jpg" alt="Imagen de la pelicula La Gran Estafa"
-                        loading="lazy" height="300rem">
+                    <div class="tarjetaPeli">
+                        <img src="./assets/images/la_gran_estafa.jpg" alt="Imagen de la pelicula La Gran Estafa"
+                            loading="lazy" height="300rem">
 
-                    <h3 class="TituloCadaTarjeta">La Gran Estafa</h3>
-                    <div class="textoParrafoAlineado">
-                        <p>La gran estafa (2001) es una película sobre un grupo de criminales que planean robar tres
-                            casinos de Las Vegas al mismo tiempo Danny Ocean (George Clooney) y su amigo Rusty Ryan
-                            (Brad Pitt) se unen para planear el robo de los casinos Bellagio, Mirage y MGM Grand. Para
-                            ello, reclutan a una banda de diez expertos en diferentes tareas. El plan se complica cuando
-                            descubren que el dueño de los casinos, Terry Benedict, está saliendo con Tess, la ex-mujer
-                            de Danny.
-                        </p>
+                        <h3 class="TituloCadaTarjeta">La Gran Estafa</h3>
+                        <div class="textoParrafoAlineado">
+                            <p>La gran estafa (2001) es una película sobre un grupo de criminales que planean robar tres
+                                casinos de Las Vegas al mismo tiempo Danny Ocean (George Clooney) y su amigo Rusty Ryan
+                                (Brad Pitt) se unen para planear el robo de los casinos Bellagio, Mirage y MGM Grand. Para
+                                ello, reclutan a una banda de diez expertos en diferentes tareas. El plan se complica cuando
+                                descubren que el dueño de los casinos, Terry Benedict, está saliendo con Tess, la ex-mujer
+                                de Danny.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tarjetaPeli">
+                        <img src="./assets/images/ET.jpg" alt="Imagen de la pelicula E T" loading="lazy" height="300rem">
+                        <h3 class="TituloCadaTarjeta">E.T.</h3>
+                        <div class="textoParrafoAlineado">
+                            <p> E.T., el extraterrestre es una película de ciencia ficción de 1982 dirigida por Steven
+                                Spielberg. Cuenta la historia de un niño que se hace amigo de un extraterrestre abandonado
+                                en la Tierra.
+                                Un grupo de extraterrestres en misión de paz se queda varado en la Tierra cuando su nave se
+                                marcha sin uno de ellos. El niño Elliott encuentra al extraterrestre, lo esconde en su casa
+                                y le pone el nombre de E.T. El y sus hermanos intentan que E.T. regrese a su planeta antes
+                                de que lo encuentren la policía y los científicos.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="tarjetaPeli">
-                    <img src="./assets/images/ET.jpg" alt="Imagen de la pelicula E T" loading="lazy" height="300rem">
-                    <h3 class="TituloCadaTarjeta">E.T.</h3>
-                    <div class="textoParrafoAlineado">
-                        <p> E.T., el extraterrestre es una película de ciencia ficción de 1982 dirigida por Steven
-                            Spielberg. Cuenta la historia de un niño que se hace amigo de un extraterrestre abandonado
-                            en la Tierra.
-                            Un grupo de extraterrestres en misión de paz se queda varado en la Tierra cuando su nave se
-                            marcha sin uno de ellos. El niño Elliott encuentra al extraterrestre, lo esconde en su casa
-                            y le pone el nombre de E.T. El y sus hermanos intentan que E.T. regrese a su planeta antes
-                            de que lo encuentren la policía y los científicos.
-                        </p>
-                    </div>
-                </div>
+                <button class="btn-carrusel izquierda">&#10094;</button>
+                <button class="btn-carrusel derecha">&#10095;</button>    
             </div>
+           
         </section>
 
         <section class="Contacto" id="contacto">
@@ -126,7 +137,7 @@
                 <img src="./assets/images/ImagenF.jpg" alt="foto personal" loading="lazy" width="300">
             </div>
             <div >
-                <form class="formulario" action="" method="POST">
+                <form class="formulario" id ="formulario-contacto">
                     <div>
                         <label for="name">Nombre</label>
                         <input type="text" id="name" name="name" required>
@@ -148,7 +159,7 @@
                 </form>
             </div>
         </div>
-        </section>
+        </section>          
     </main>
     
     <footer>
@@ -161,6 +172,17 @@
             </a>
         </div>
     </footer>
+   
+    <script src="./js/contador.js"></script>
+    <script src="./js/modoOscuro.js"></script>
+    <script src="./js/carruselPeliculas.js"></script>
+    <script src="./js/popUp.js"></script>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <p>¡Formulario enviado correctamente!</p>
+          <button id="cerrar-popup">Cerrar</button>
+        </div>
+    </div>
 </body>
 
 </html>

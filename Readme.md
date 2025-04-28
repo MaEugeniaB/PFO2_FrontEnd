@@ -56,3 +56,9 @@ Checklist - Práctica Formativa Obligatoria 1
 - [✔️] Buenas prácticas de accesibilidad (`alt` en imágenes).
 - [✔️] Se añadieron **Comentarios adicionales** donde se describan decisiones de diseño o la lógica de implementación.
 
+### **Java Script**
+- [✔️] Se agregó un modo oscuro. Se guarda la elección del usuario y vuelve a abrir según esta elección
+- [✔️] Se incorporó un contador de visitas.
+- [✔️] Al contador de visitas, se le añadió un reloj de arena con animación.
+- [✔️] se modificó la manera de visualizar las tarjetas de películas. Antes era estática. Ahora se visualiza en carrusel.
+- [✔️] Se agregó un Pop Up al formulario. Una vez que se anvia el formulario, aparece un pop up con el envio exitoso.
