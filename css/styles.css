@@ -359,8 +359,8 @@ body.dark-mode {
     right: 20px;
     z-index: 99;
     font-size: 22px;
-    background-color: #555;
-    color: white;
+    background-color: rgb(213, 252, 142);
+    color: rgb(123, 153, 67);
     border: none;
     padding: 10px 15px;
     border-radius: 50%;
