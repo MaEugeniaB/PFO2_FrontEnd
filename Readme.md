@@ -3,7 +3,7 @@ README
 El siguiente es el 2° trabajo realizado para el IFTS 29, en la materia de Front end.
 La URL del GitHub Pages: https://maeugeniab.github.io/PFO2_FrontEnd/
 
-Checklist - Práctica Formativa Obligatoria 1
+Checklist - Práctica Formativa Obligatoria 1 y 2
 
 ### **Estructura del Proyecto**
 - [✔️] Archivo `index.html` en la raíz.
